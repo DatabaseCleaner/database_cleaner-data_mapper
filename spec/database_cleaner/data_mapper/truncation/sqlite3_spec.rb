@@ -1,4 +1,3 @@
-require 'support/data_mapper_helper'
 require 'database_cleaner/data_mapper/truncation'
 
 RSpec.describe DatabaseCleaner::DataMapper::Truncation do

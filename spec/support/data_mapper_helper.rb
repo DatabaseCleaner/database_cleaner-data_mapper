@@ -1,6 +1,6 @@
-require 'dm-core'
-require 'dm-sqlite-adapter'
 require 'database_cleaner/spec/database_helper'
+require "data_mapper"
+require "dm-sqlite-adapter"
 
 class DataMapperHelper < DatabaseCleaner::Spec::DatabaseHelper
   def setup
